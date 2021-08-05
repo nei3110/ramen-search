@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-ramen.png" translatesAutoresizingMaskIntoConstraints="NO" id="sD7-1h-l0O">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ロゴ.png" translatesAutoresizingMaskIntoConstraints="NO" id="jzx-nT-UyI">
+                                <rect key="frame" x="40" y="281" width="334" height="334"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jzx-nT-UyI" secondAttribute="height" id="12l-tr-vBi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sD7-1h-l0O" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4rG-Ws-k9w"/>
+                            <constraint firstItem="sD7-1h-l0O" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="7g8-bN-XUC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sD7-1h-l0O" secondAttribute="trailing" id="A7j-54-cZ0"/>
+                            <constraint firstItem="jzx-nT-UyI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="I5s-nM-PUg"/>
+                            <constraint firstItem="jzx-nT-UyI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="cUX-xv-aKG"/>
+                            <constraint firstItem="sD7-1h-l0O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fEL-GR-Je0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jzx-nT-UyI" secondAttribute="trailing" constant="40" id="l0p-C2-uFT"/>
+                            <constraint firstItem="jzx-nT-UyI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xdR-eh-CHz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash-ramen.png" width="852" height="1049"/>
+        <image name="ロゴ.png" width="921" height="453.75"/>
+    </resources>
+</document>
