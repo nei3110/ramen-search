@@ -3,7 +3,7 @@
 　現在地からの距離を指定すると、ヒットしたラーメン屋をキャッチコピー付きで一覧表示します。また、口コミからキーワードを抽出することも可能です。  
 
 ## デモ
-![Animated GIF-downsized_large](https://user-images.githubusercontent.com/21253696/128346402-9952a64b-d4ab-4305-8b50-cbd5b970aee9.gif)
+![Animated GIF-downsized_large (1)](https://user-images.githubusercontent.com/21253696/128353056-9b315357-e782-49e3-ae06-183d04657a05.gif)
 
 ## goodな点
 ### １、UXにこだわった操作感
